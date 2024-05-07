@@ -1,0 +1,90 @@
+.skills{
+    padding: 16px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills__title{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills__line{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.skills__box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 115px;
+    height: 110px;
+    padding: 16px;
+    color: black;
+    background-color: #ffffff;
+}
+
+
+
+.skills__box ul li{
+    padding: 8px 0;
+}
+
+.skills__name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (min-width:767px){
+
+    .skills{
+        padding: 32px;
+        gap: 32px;
+        flex-direction: column;
+    }
+    .skills__line{
+        display: flex;
+        justify-content: center;
+    }
+    .skills__box{
+        width: 180px;
+    }
+}
+
+@media(min-width:1024px){
+
+    .skills{
+        padding: 32px;
+
+    }
+    .skills__title{
+        font-size: 32px;
+    }
+
+    .skills__line{
+        padding: 0 100px;
+    }
+
+    .skills__box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 176;
+    }
+
+    .skills__img{
+        display:flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .skills__name{
+        justify-content: center;
+    }
+}

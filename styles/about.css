@@ -1,0 +1,47 @@
+.about{
+    padding: 16px;
+    background-color:#35321c;/*rgb(232, 243, 250);*/
+    display: flex;
+}
+
+.about__title{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.about__paragraph{
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+
+@media (min-width:767px){
+    .about{
+        padding: 32px;
+    }
+
+    .about__paragraph{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1039px){
+    .about{
+        padding: 64px 150px;
+
+    }
+
+    .about__title{
+        font-size: 32px;
+    }
+
+    .about__paragraph{
+        font-size: 22px;
+
+    }
+
+    .about__container img{
+        padding-top: 30px;
+    }
+
+}
