@@ -1,0 +1,97 @@
+.certificaciones{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+}
+
+.certificacion__title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.certificacion__courses{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.certificacion__courses__item__img{
+    display: flex;
+    background-color: #ffffff;
+    padding: 16px;
+    justify-content: center;
+}
+
+.certificacion__courses__item__img img{
+    width: 85px;
+    height: 55px;
+    align-self: center;
+    justify-content: center;
+}
+
+.certificacion__courses__item__title{
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.certificacion__courses__item__subtitle{
+    font-size: 14px;
+}
+
+
+@media (min-width:767px){
+    .certificacion{
+        gap: 32px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .certificacion__courses{
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .certificacion__courses__box{
+        width: 200px;
+    }
+}
+
+@media (min-width:1039px){
+    .certificacion{
+        padding: 80px;
+    }
+
+    .certificacion__title{
+        font-size: 32px;
+    }
+
+    .certificacion__courses{
+        flex-direction: row;
+        gap: 22px;
+    }
+
+    .certificacion__courses__box{
+        width: 350px;
+    }
+
+    .certificacion__courses__item__img{
+        height: 200px;
+    }
+
+    .certificacion__courses__item__img img{
+        width: 190px;
+        height: 130px;
+    }
+
+    .certificacion__courses__item__title{
+        font-size: 22px;
+    }
+
+    .certificacion__courses__item__subtitle{
+        font-size: 16px;
+    }
+
+}

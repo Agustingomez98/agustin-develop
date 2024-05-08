@@ -1,0 +1,32 @@
+@import url("styles/reset.css");
+@import url("styles/header.css");
+@import url("styles/title.css");
+@import url("styles/about.css");
+@import url("styles/about.css");
+@import url("styles/skills.css");
+@import url("styles/hobbies.css");
+@import url("styles/academic.css");
+@import url("styles/experience.css");
+@import url("styles/contacto.css");
+@import url("styles/footer.css");
+@import url("styles/certificados.css");
+
+
+body{
+    line-height: 1;
+    font-family: "Raleway";
+    color: #464646;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color:#272727;/*#E5E5E5;*/
+    background-image: url("./assets/fondo/ssscribble\ \(1\).svg");
+    color: #ffffff;     
+    line-height: 1.5;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
